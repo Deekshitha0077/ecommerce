@@ -45,7 +45,7 @@ body{
 }
 
 /*header page*/
-# header {
+#header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,10 @@ body{
     transition: 0.3s ease;
 }
 
-#navbar li a:hover,
+#navbar li a:hover{
+    color:#088178;
+
+}
 #navbar li a.active {
     color: #088178;   
 }
@@ -96,7 +99,7 @@ body{
 
 /*Home page*/
 #hero {
-    background-image: url("paste url here");
+    background-image: url("img/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -116,7 +119,7 @@ body{
 }
 
 #hero button {
-    background-image: url("paste");
+    background-image: url("img/button.png");
     background-color: transparent;
     color: #088178;
     border: 0;
